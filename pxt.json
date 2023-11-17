@@ -1,0 +1,27 @@
+{
+    "name": "test ",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "kittenwifi": "github:kittenbot/pxt-kittenwifi#v0.2.7",
+        "makercloud_v2": "github:scaleinnotech/pxt-makercloud-v2#v1.1.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.1.7",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
